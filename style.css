@@ -5,6 +5,18 @@
   src: url(hk-grotesk.woff2), url(hk-grotesk.woff);
 }
 
+body {
+	font-family: "HK Grotesk", Arial;
+	font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0;
+	
+	background-color: #F3F7F7;
+	color: #052837;
+	
+}
+
 header {
   font-family: "HK Grotesk", Arial;
   position: fixed;
@@ -36,7 +48,11 @@ header h1, header nav {
 }
 
 header nav {
-  text-align: right;
+  text-align: center;
+}
+
+header a {
+  margin: 0 96px 0 0;
 }
 
 a {
@@ -45,9 +61,14 @@ a {
   text-decoration: none;
   font-size: 28px;
 	line-height: 1.25;
-  margin: 0 0 0 50px;
+  margin: 0 0 0 0;
 }
 
 a:hover {
   color: #0015E0;
+}
+
+p {
+  padding-top: 100px;
+  padding-left: 64px;
 }
